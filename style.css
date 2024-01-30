@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: linear-gradient(to left, #0000ff, #05cdff);
 }
 
 .container {
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #343a40;
+    background-color: #000000;
     color: #fff;
     padding: 10px 0;
 }
@@ -31,7 +31,7 @@ nav {
 nav a {
     color: #fff;
     text-decoration: none;
-    margin: 0 15px; /* Добавлено расстояние между ссылками */
+    margin: 0 15px; 
 }
 
 .courses {
@@ -53,15 +53,16 @@ nav a {
 }
 
 footer {
-    background-color: #343a40;
+    background: linear-gradient(to left, #05cdff, #0000ff);
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    border-radius: 12px;
 }
 
 .motivation {
-    background-color: #333;
+    background: linear-gradient(to left, #05cdff, #0000ff);
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 30px 0;
 }
