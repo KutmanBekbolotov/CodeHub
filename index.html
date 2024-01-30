@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CodeHub</h1>
+            <nav>
+                <a href="#">О нас</a>
+                <a href="#">Курсы</a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="courses">
+        <div class="container">
+            <div class="course" onclick="showModal('CS50', 'CS50 — Курс о основах программирования. Языки программирования: C/C++, HTML/CSS, scretch. Длительность: 12 недель');">
+                <img src="images/CS.jpeg" alt="Курс 1" style="width: 70%; height: auto;">
+                <h3>CS50</h3>
+            </div>
+            <div class="course" onclick="showModal('CS51', 'CS51 — Продвинутый уровень С/С++. Языки программирования: С/С++. Длительность: 8 недель');">
+                <img src="images/C:Cpp.jpeg" alt="Курс 2" style="width: 70%; height: auto;">
+                <h3>CS51</h3>
+            </div>
+            <div class="course" onclick="showModal('CS61', 'CS61 — Сруктуры данных и алгоритмы DSA. Языки программирования: С++/Python. Длительность: 8 недель');">
+                <img src="images/DSA.jpeg" alt="Курс 3" style="width: 70%; height: auto;">
+                <h3>CS61</h3>
+            </div>
+        </div>
+    </section>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="courseTitle"></h2>
+            <p id="courseDescription"></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 CodeHub. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <footer>
+        <div class="motivation">
+            <p>Next step in IT industry</p>
+        </div>
+    </footer>
+</body>
+</html>
