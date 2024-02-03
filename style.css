@@ -2,7 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to left, #0000ff, #05cdff);
+    background: url('images/Background2.jpeg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .container {
@@ -19,6 +20,10 @@ header {
 
 header h1 {
     margin: 0;
+}
+
+h1, h2, h3, nav a, .close {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.9), 0 0 20px rgba(255, 255, 255, 0.9), 0 0 30px rgba(255, 255, 255, 0.9);
 }
 
 nav {
@@ -50,6 +55,11 @@ nav a {
 .course img {
     width: 100%;
     height: auto;
+    border-radius: 12px;
+}
+
+.course img {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.9), 0 0 30px rgba(255, 255, 255, 0.9), 0 0 40px rgba(255, 255, 255, 0.9);
 }
 
 footer {
