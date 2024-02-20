@@ -68,7 +68,7 @@ h1, h2, h3, nav a, .close .undertext{
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     margin-top: 10px;
     padding-right: 40px 0;
 }
