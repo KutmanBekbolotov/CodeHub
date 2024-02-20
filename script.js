@@ -13,3 +13,18 @@ function closeModal() {
     var modal = document.getElementById('modal');
     modal.style.display = 'none';
 }
+
+function redirectToInstagram() {
+    window.location.href = "https://www.instagram.com/bulgass.it/";
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const instagramLink = document.getElementById('instagram-link');
+    if (instagramLink) {
+        instagramLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            redirectToInstagram();
+        });
+    }
+});
+
