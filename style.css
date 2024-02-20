@@ -23,7 +23,7 @@ header h1 {
     position: sticky;
 }
 
-h1, h2, h3, nav a, .close {
+h1, h2, h3, nav a, .close .undertext{
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.9), 0 0 20px rgba(255, 255, 255, 0.9), 0 0 30px rgba(255, 255, 255, 0.9);
 }
 
@@ -49,6 +49,8 @@ h1, h2, h3, nav a, .close {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     max-width: 80%;
     text-align: center;
+    max-height: 300px;
+    overflow-y: auto;
 }
 
 .close {
@@ -105,4 +107,10 @@ nav a {
     padding: 20px; 
     border-radius: 10px; 
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); 
+}
+
+.undertext{
+    color:#fff;
+    text-align: center;
+    padding: 20px;
 }
