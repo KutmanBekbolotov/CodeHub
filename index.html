@@ -6,8 +6,8 @@
     <title>Bulgass.IT</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <link rel="icon" href="images/bulgassLogo.jpeg" type="image/x-icon">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -15,8 +15,8 @@
             <img src="images/bulgassLogo.jpeg" alt="Logo" style="width: 7%; height: 7%;">
             <h1>Bulgass.IT</h1>
             <nav>
-                <a href="#">О нас</a>
-                <a href="#">Курсы</a>
+                <a href="#" id="about-link">О нас</a>
+                <a href="#" id="courses-link">Курсы</a>
                 <a href="#" id="instagram-link"><i class="fab fa-instagram"></i></a>
             </nav>
         </div>
@@ -43,5 +43,22 @@
         </div>
     </div>
 
+    <div id="overlay-about" class="overlay">
+        <div class="overlay-content">
+            <span class="close" onclick="closeOverlayAbout()">&times;</span>
+            <h2>О нас</h2>
+            <p>Анау мынау сыйыр бызау</p>
+        </div>
+    </div>
+    
+    <div id="overlay-courses" class="overlay">
+        <div class="overlay-content">
+            <span class="close" onclick="closeOverlayCourses()">&times;</span>
+            <h2>Курсы</h2>
+            <p>Список курсов</p>
+        </div>
+    </div>
+    
+    
 </body>
 </html>
