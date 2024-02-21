@@ -18,6 +18,7 @@ function redirectToInstagram() {
     window.location.href = "https://www.instagram.com/bulgass.it/";
 }
 
+
 function showOverlay() {
     const overlay = document.getElementById('overlay');
     overlay.style.display = 'block';
@@ -49,8 +50,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
-
-
 
 function showOverlayAbout() {
     const overlay = document.getElementById('overlay-about');
