@@ -70,3 +70,5 @@ function closeOverlayCourses() {
     const overlay = document.getElementById('overlay-courses');
     overlay.style.display = 'none';
 }
+
+  
