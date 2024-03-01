@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function addCodeLine(line, container) {
         const codeLine = document.createElement('div');
         codeLine.textContent = line;
-        codeLine.style.color = 'yellow'; // Set text color to yellow
+        codeLine.style.color = 'yellow';
         container.appendChild(codeLine);
         container.scrollTop = container.scrollHeight;
     }
@@ -46,11 +46,11 @@ document.addEventListener("DOMContentLoaded", function() {
         addCodeLines(codes[currentCodeIndex], currentCodeContainer);
 
         setTimeout(() => {
-            currentCodeContainer.innerHTML = ''; // Clear current code after display
+            currentCodeContainer.innerHTML = ''; 
             currentCodeIndex = nextCodeIndex;
-            cycleCode(); // Recursively call for the next code
+            cycleCode(); 
         }, codes[currentCodeIndex].length * 1000);
     }
 
-    cycleCode(); // Start the code cycling process
+    cycleCode();
 });
